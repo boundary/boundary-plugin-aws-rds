@@ -2,7 +2,7 @@
     "result": [
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The average number of disk I/O operations per second.",
             "displayName": "AWS RDS - Average IOPS",
             "displayNameShort": "AWS RDS - Avg IOPS",
@@ -12,7 +12,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The amount of disk space occupied by binary logs on the master. Applies to MySQL read replicas.",
             "displayName": "AWS RDS - Binlog Disk Usage",
             "displayNameShort": "AWS RDS - Binlog Usg",
@@ -22,7 +22,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The percentage of CPU utilization.",
             "displayName": "AWS RDS - CPU Utilization",
             "displayNameShort": "AWS RDS - CPU Util",
@@ -32,7 +32,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The number of database connections in use.",
             "displayName": "AWS RDS - Database Connections",
             "displayNameShort": "AWS RDS - DB Conns",
@@ -42,7 +42,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The number of outstanding IOs (read/write requests) waiting to access the disk.",
             "displayName": "AWS RDS - Disk Queue Depth",
             "displayNameShort": "AWS RDS - Disk Q",
@@ -52,7 +52,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The amount of available storage space.",
             "displayName": "AWS RDS - Free Storage Space",
             "displayNameShort": "AWS RDS - Free Space",
@@ -62,7 +62,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The amount of available random access memory.",
             "displayName": "AWS RDS - Freeable Memory",
             "displayNameShort": "AWS RDS - Free Mem",
@@ -72,7 +72,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The incoming (Receive) network traffic on the DB instance, including both customer database traffic and Amazon RDS traffic used for monitoring and replication.",
             "displayName": "AWS RDS - Network Receive Throughput",
             "displayNameShort": "AWS RDS - Net Rx",
@@ -82,7 +82,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The outgoing (Transmit) network traffic on the DB instance, including both customer database traffic and Amazon RDS traffic used for monitoring and replication.",
             "displayName": "AWS RDS - Network Transmit Throughput",
             "displayNameShort": "AWS RDS - Net Tx",
@@ -92,7 +92,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The average amount of time taken per disk I/O operation.",
             "displayName": "AWS RDS - Read Latency",
             "displayNameShort": "AWS RDS - Rd Latency",
@@ -102,7 +102,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The average number of bytes read from disk per second.",
             "displayName": "AWS RDS - Read Throughput",
             "displayNameShort": "AWS RDS - Read TP",
@@ -112,7 +112,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The amount of time a Read Replica DB Instance lags behind the source DB Instance. Applies to MySQL read replicas.  The ReplicaLag metric reports the value of the Seconds_Behind_Master field of the MySQL SHOW SLAVE STATUS command. For more information, see SHOW SLAVE STATUS.",
             "displayName": "AWS RDS - Replica Lag",
             "displayNameShort": "AWS RDS - Replica Lg",
@@ -122,7 +122,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The amount of swap space used on the DB Instance.",
             "displayName": "AWS RDS - Swap Usage",
             "displayNameShort": "AWS RDS - Swap",
@@ -132,7 +132,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The average number of disk I/O operations per second.",
             "displayName": "AWS RDS - Write IOPS",
             "displayNameShort": "AWS RDS - WriteIOPS",
@@ -142,7 +142,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The average amount of time taken per disk I/O operation.",
             "displayName": "AWS RDS - Write Latency",
             "displayNameShort": "AWS RDS - Wr Latency",
@@ -152,7 +152,7 @@
         },
         {
             "defaultAggregate": "AVG",
-            "defaultResolutionMS": 0,
+            "defaultResolutionMS": 60000,
             "description": "The average number of bytes written to disk per second.",
             "displayName": "AWS RDS - Write Throughput",
             "displayNameShort": "AWS RDS - Write TP",
