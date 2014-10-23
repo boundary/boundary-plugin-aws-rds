@@ -1,6 +1,8 @@
 Boundary AWS RDS Plugin
 =======================
 
+*Awaiting Certification*
+
 The Boundary AWS RDS plugin collects information on AWS [Relational Database Service](http://aws.amazon.com/rds/) using the [CloudWatch](http://aws.amazon.com/cloudwatch/) API.
 
 The plugin requires Python 2.6 or later, as well as the [Boto Python library](https://github.com/boto/boto).  [Click here](https://github.com/boto/boto#installation) for Boto installation instructions.

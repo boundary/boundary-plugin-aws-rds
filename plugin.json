@@ -1,5 +1,5 @@
 {
-    "description": "Monitors AWS RDS Databases",
+    "description": "Awaiting Certification - Monitors AWS RDS Databases",
     "command": "python -u rds_plugin.py",
     "icon" : "icon.png",
     "metrics" : [
